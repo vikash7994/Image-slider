@@ -1,0 +1,106 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	
+}
+/*  slider  */
+#slider {
+    position: relative;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+   }
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#slider ul li img{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 1348px;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control_prev:hover, .control_next:hover {
+  opacity: .8;
+}
+.control_prev, .control_next {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    width: 10%;
+    height: 90%;
+    background: transparent;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3em;
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+.control_next img{
+  width: 40px;
+}
+.control_prev img{
+  width: 40px;
+}
+.slide1 img {
+    width: 100%;
+}
+.slide2 img {
+    width: 100%;
+}
+.slide3 img {
+    width: 100%;
+}
+.slide4 img {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  
+ #slider ul li img{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
