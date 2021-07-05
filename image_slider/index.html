@@ -5,36 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-
-<body>
-
-<h1>Image Slider</h1>
-
-  <div id="slider">
-    <p class="control_next"><img src="./images/next.png" alt=""></p>
-    <p class="control_prev"><img src="./images/previous.png" alt=""></p>
-    <ul>
-      <li class="slide1">
-        <img src="./images/Layer-5.jpg" alt="">
-      </li>
-      <li class="slide2">
-        
-        <img src="./images/sales.jpg" alt="">
-      </li>
-      <li class="slide3">
-       
-        <img src="./images/shop.jpg" alt="">
-      </li>
-      <li class="slide4">
-       
-        <img class="hide" src="./images/testim-bg.jpg" alt="">
-      </li>
-     </ul>
-  </div>
-</body>
-<script src="./js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./css/style2.css">
+  <script src="./js/jquery-3.6.0.min.js"></script>
   <script src="./js/main.js"></script>
+</head>
+<body>
+  <h1>Image slider</h1>
+<div id="slider">
+<figure>
+	
+<img src="images/Layer-5.jpg" class="active">
+<img src="images/men.jpg">
+<img src="images/sales.jpg">
+<img src="images/testim-bg.jpg">
+<img class="slide5" src="images/shop.jpg">
+</figure>
+
+<button class="btn-prev"><img src="./images/previous.png" alt=""></button>
+<button class="btn-next"><img src="./images/next.png" alt=""> </button>
+
+</div>
+
+</body>
 </html>
