@@ -40,17 +40,12 @@ jQuery(document).ready(function ($) {
       moveRight();
   });
 
-
 });
 
-// document.addEventListener('DOMContentLoaded',init);
-// function init(){
-//     let query = window.matchMedia("(max-width:768px)");
-//     if(query.matches){
-//         document.querySelector('#slider ul li:last-child').style.display ="none";
-//     }
-// else{
-//     document.querySelector('#slider ul li:last-child').style.display ="block";
-// }
-    
-// }
+document.addEventListener('DOMContentLoaded',init);
+function init(){
+    let query = window.matchMedia("(max-width:768px)");
+    if(query.matches){
+        document.querySelector('#slider ul li:last-child').style.display ="none";
+    }    
+}
